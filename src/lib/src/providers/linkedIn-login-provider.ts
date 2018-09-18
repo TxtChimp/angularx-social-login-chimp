@@ -40,9 +40,7 @@ export class LinkedInLoginProvider extends BaseLoginProvider {
     getLoginStatus(): Promise<SocialUser> {
         return new Promise((resolve, reject) => {
             this.onReady().then(() => {
-                this.signIn().then(
-                    user => resolve(user)
-                )
+                resolve(null);
             });
         });
     }
@@ -50,7 +48,7 @@ export class LinkedInLoginProvider extends BaseLoginProvider {
     signIn(): Promise<SocialUser> {
         return new Promise((resolve, reject) => {
             this.onReady().then(() => {
-                IN.User.authorize(function () {
+                IN.User.authenticate(function () {
                     IN.API.Raw(`/people/~:(${this.fields})`).result(function (res: any) {
                         let user: SocialUser = new SocialUser();
                         user.id = res.id;
