@@ -9710,7 +9710,7 @@
             var _this = this;
             return new Promise(function (resolve, reject) {
                 _this.onReady().then(function () {
-                    IN.User.authenticate(function () {
+                    IN.User.authorize(function () {
                         IN.API.Raw("/people/~:(" + this.fields + ")").result(function (res) {
                             var /** @type {?} */ user = new SocialUser();
                             user.id = res.id;

@@ -9588,7 +9588,7 @@ class LinkedInLoginProvider extends BaseLoginProvider {
     signIn() {
         return new Promise((resolve, reject) => {
             this.onReady().then(() => {
-                IN.User.authenticate(function () {
+                IN.User.authorize(function () {
                     IN.API.Raw(`/people/~:(${this.fields})`).result(function (res) {
                         let /** @type {?} */ user = new SocialUser();
                         user.id = res.id;
