@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core')) :
     typeof define === 'function' && define.amd ? define(['exports', '@angular/core'], factory) :
-    (factory((global.angularxSocialLogin = {}),global.ng.core));
+    (factory((global.angularxSocialLoginChimp = {}),global.ng.core));
 }(this, (function (exports,core) { 'use strict';
 
     /*! *****************************************************************************
@@ -9768,4 +9768,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=angularx-social-login.umd.js.map
+//# sourceMappingURL=angularx-social-login-chimp.umd.js.map

@@ -9630,4 +9630,4 @@ LinkedInLoginProvider.PROVIDER_ID = 'LINKEDIN';
  */
 
 export { AuthService, SocialLoginModule, SocialUser, GoogleLoginProvider, FacebookLoginProvider, LinkedInLoginProvider, AuthServiceConfig, BaseLoginProvider as ɵa };
-//# sourceMappingURL=angularx-social-login.js.map
+//# sourceMappingURL=angularx-social-login-chimp.js.map

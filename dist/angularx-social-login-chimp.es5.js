@@ -9753,4 +9753,4 @@ var LinkedInLoginProvider = /** @class */ (function (_super) {
  */
 
 export { AuthService, SocialLoginModule, SocialUser, GoogleLoginProvider, FacebookLoginProvider, LinkedInLoginProvider, AuthServiceConfig, BaseLoginProvider as ɵa };
-//# sourceMappingURL=angularx-social-login.es5.js.map
+//# sourceMappingURL=angularx-social-login-chimp.es5.js.map

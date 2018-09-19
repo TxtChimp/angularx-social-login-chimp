@@ -15,8 +15,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "angularx-social-login.js",
-    "flatModuleId": "angularx-social-login",
+    "flatModuleOutFile": "angularx-social-login-chimp.js",
+    "flatModuleId": "angularx-social-login-chimp",
     "genDir": "../../out-tsc/lib-gen-dir/"
   }
 }

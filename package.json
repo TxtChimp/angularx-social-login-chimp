@@ -4,7 +4,7 @@
   "description": "Social login and authentication module for Angular 4 / 5. Supports authentication with Google and Facebook. Can be extended to other providers also.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abacritt/angularx-social-login"
+    "url": "https://github.com/TxtChimp/angularx-social-login-chimp"
   },
   "author": {
     "name": "Development",
@@ -20,10 +20,10 @@
     "facebook-authentication"
   ],
   "license": "MIT",
-  "main": "./bundles/angularx-social-login.umd.js",
-  "module": "./angularx-social-login.es5.js",
-  "es2015": "./angularx-social-login.js",
-  "typings": "./angularx-social-login.d.ts",
+  "main": "./bundles/angularx-social-login-chimp.umd.js",
+  "module": "./angularx-social-login-chimp.es5.js",
+  "es2015": "./angularx-social-login-chimp.js",
+  "typings": "./angularx-social-login-chimp.d.ts",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
