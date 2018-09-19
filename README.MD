@@ -1,5 +1,8 @@
 # Angular 4 / 5 / 6 Social Login
 
+## Forked NPM from: https://www.npmjs.com/package/angularx-social-login
+###This includes fixes to prevent LinkedIn Popup on first load of framework.
+
 Social login and authentication module for Angular 4 / 5 / 6. Supports authentication with **Google** and **Facebook**. Can be extended to other providers also.
 
 Check out the [demo](https://abacritt.github.io/angularx-social-login/).
