@@ -9691,7 +9691,8 @@ var LinkedInLoginProvider = /** @class */ (function (_super) {
         var _this = this;
         return new Promise(function (resolve, reject) {
             _this.onReady().then(function () {
-                resolve(null);
+                var /** @type {?} */ user = new SocialUser();
+                resolve(user);
             });
         });
     };

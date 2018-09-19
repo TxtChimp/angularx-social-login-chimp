@@ -9577,7 +9577,8 @@ class LinkedInLoginProvider extends BaseLoginProvider {
     getLoginStatus() {
         return new Promise((resolve, reject) => {
             this.onReady().then(() => {
-                resolve(null);
+                let /** @type {?} */ user = new SocialUser();
+                resolve(user);
             });
         });
     }
