@@ -40,7 +40,8 @@ export class LinkedInLoginProvider extends BaseLoginProvider {
     getLoginStatus(): Promise<SocialUser> {
         return new Promise((resolve, reject) => {
             this.onReady().then(() => {
-                resolve(null);
+                let user: SocialUser = new SocialUser();
+                resolve(user);
             });
         });
     }
